@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheep House Cocktails</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Apple Chancery', serif; background: linear-gradient(135deg, #f5f1e8 0%, #faf8f3 100%); color: #3a3a3a; line-height: 1.6; }
+        .menu-container { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
+        .header { text-align: center; padding: 60px 20px; background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.7)); border-radius: 20px; margin-bottom: 50px; box-shadow: 0 4px 20px rgba(139, 90, 43, 0.1); border: 3px solid #d4a574; }
+        .header h1 { font-size: 4em; color: #8b5a2b; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 4px; font-weight: 300; }
+        .header p { font-size: 1.2em; color: #6b6b6b; font-style: italic; }
+        .category { margin-bottom: 60px; }
+        .category-title { font-size: 2.5em; color: #8b5a2b; text-align: center; margin-bottom: 40px; padding-bottom: 15px; border-bottom: 2px solid #d4a574; text-transform: uppercase; letter-spacing: 2px; }
+        .cocktails-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 30px; margin-bottom: 40px; }
+        .cocktail-card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(139, 90, 43, 0.15); transition: transform 0.3s ease; border: 2px solid #e8dcc8; }
+        .cocktail-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(139, 90, 43, 0.25); }
+        .cocktail-image { width: 100%; height: 250px; background: linear-gradient(135deg, #f5e6d3 0%, #e8d5bd 100%); display: flex; align-items: center; justify-content: center; font-size: 3.5em; border-bottom: 3px solid #d4a574; }
+        .cocktail-content { padding: 22px; }
+        .cocktail-name { font-size: 1.7em; color: #8b5a2b; margin-bottom: 10px; font-weight: 600; }
+        .cocktail-description { color: #666; margin-bottom: 12px; font-size: 1.2em; line-height: 1.5; font-style: italic; }
+        .recipe-title { font-size: 1em; color: #8b5a2b; margin: 12px 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .ingredient { padding: 6px 0; border-bottom: 1px solid #f0e8d8; display: flex; justify-content: space-between; font-size: 1.2em; }
+        .ingredient:last-child { border-bottom: none; }
+        .ingredient-name { color: #5a5a5a; font-weight: 500; }
+        .ingredient-amount { color: #8b5a2b; font-weight: 600; }
+        @media (max-width: 768px) { .cocktails-grid { grid-template-columns: 1fr; } .header h1 { font-size: 2.5em; } }
+    </style>
+</head>eibccbchehhnkfvhbbeengibgivirbuitccdhjnhekul
+
+<body>
+    <div class="menu-container">
+        <div class="header">
+            <h1>Sheep House Cocktails</h1>
+            <p>Good spirits, better company—cheers to a night to remember!</p>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Signature Collection</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="lavender-breeze.png" alt="Lavender Breeze Cocktail" style="max-width: 9%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Sheep House Signature</h3>
+                        <p class="cocktail-description">Elegant, balanced, floral citrus harmony. For guests who want "something special." A deeply aromatic experience where the floral notes of lavender dance perfectly with the lemon-lime sparkle of the cider. This drink is essentially a garden in a glass. It is highly recommended for the daydreamer—someone who enjoys reading a good book in a quiet corner and appreciates delicate, perfumed flavors over heavy alcohol kicks.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Lavender Gin</span><span class="ingredient-amount">2 parts (40ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Yuzu Liqueur</span><span class="ingredient-amount">1 part (20ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Sake</span><span class="ingredient-amount">2 parts (40ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">1 part (20ml)</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Floral & Herbal Garden</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Lavender Twilight.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Lavender Twilight</h3>
+                        <p class="cocktail-description">Soft floral aromatics lead into a clean citrus snap, finishing calm and perfumed.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Lavender Gin</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Yuzu Liqueur</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Orange Juice</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Chilsung Cider</span><span class="ingredient-amount">Top (30ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Garden Breeze.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Garden Breeze</h3>
+                        <p class="cocktail-description">Crisp, dry grapefruit with botanical clarity from Japanese botanicals.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">ROKU Gin</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Tea Spirit</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Grapefruit Wine</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Sakura Dream.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Sakura Dream</h3>
+                        <p class="cocktail-description">Gentle, rounded, quietly fruity with rice softness.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Sake</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lavender Gin</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Yuzu Liqueur</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Chilsung Cider</span><span class="ingredient-amount">Top (45ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Eastern Orchard.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Eastern Orchard</h3>
+                        <p class="cocktail-description">Juicy plum sweetness with crisp citrus refreshment.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">ROKU Gin</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Plum Liqueur</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Orange Juice</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Lavender Quiet Evening.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Lavender Quiet Evening</h3>
+                        <p class="cocktail-description">Soft floral aromatics lead into a clean citrus snap, finishing calm and perfumed.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Lavender Gin</span><span class="ingredient-amount">4 parts (40ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">2 parts (20ml)</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Berry & Fruit Fusion</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Cassis Sunset.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Cassis Sunset</h3>
+                        <p class="cocktail-description">Fresh berries with dry grapefruit bite. A vibrant sunset in a glass.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Cassis Liqueur</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Orange Juice</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Grapefruit Wine</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Chilsung Cider</span><span class="ingredient-amount">Top (30ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Purple Rain.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Purple Rain</h3>
+                        <p class="cocktail-description">Jammy berries enrich structured red wine.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Cassis Liqueur</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Red Wine</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Yuzu Liqueur</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Pepsi</span><span class="ingredient-amount">Top (30ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Plum Paradise.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Plum Paradise</h3>
+                        <p class="cocktail-description">Juicy plum sweetness with a crisp, refreshing lift.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Plum Liqueur</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">White Wine</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Orange Juice</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Berry Garden Fizz.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Berry Garden Fizz</h3>
+                        <p class="cocktail-description">Berry-forward, lightly acidic, refreshing and social.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Cassis Liqueur</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lavender Gin</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Grapefruit Wine</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Chilsung Cider</span><span class="ingredient-amount">Top (45ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Sakura Cassis Spritz.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Sakura Cassis Spritz</h3>
+                        <p class="cocktail-description">Berry-forward, lightly acidic, refreshing and social.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Cassis</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">White Wine</span><span class="ingredient-amount">4 parts (120ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Cassis Grapefruit Cooler.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Cassis Grapefruit Cooler</h3>
+                        <p class="cocktail-description">Fresh berries with dry grapefruit bite. Low-alcohol refreshment.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Cassis</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Grapefruit Wine</span><span class="ingredient-amount">4 parts (120ml)</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Coffee & Tea House</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Midnight Espresso.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Midnight Espresso</h3>
+                        <p class="cocktail-description">Cola fizz meets roasted coffee bitterness with dessert-like depth.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Coffee Liqueur</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Myer's Rum</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Pepsi</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Tea Ceremony.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Tea Ceremony</h3>
+                        <p class="cocktail-description">Dry, elegant, tea tannins layered over Japanese botanicals.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Tea Spirit</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Sake</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Yuzu Liqueur</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Rum & Coffee Cloud.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Rum & Coffee Cloud</h3>
+                        <p class="cocktail-description">Rich, warming, dark chocolate and molasses notes.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Myer's Rum</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Coffee Liqueur</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Orange Juice</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Chilsung Cider</span><span class="ingredient-amount">Top (30ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Oriental Brew.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Oriental Brew</h3>
+                        <p class="cocktail-description">Complex, layered, gently tannic and refreshing.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Tea Spirit</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Plum Liqueur</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">White Wine</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Midnight Cafe Highball.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Midnight Café Highball</h3>
+                        <p class="cocktail-description">Cola fizz meets roasted coffee bitterness with dessert-like depth.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Coffee Liqueur</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Pepsi</span><span class="ingredient-amount">4 parts (120ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Smoky Tea Martini.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Smoky Tea Martini</h3>
+                        <p class="cocktail-description">Dry, elegant, tea tannins layered over Japanese botanicals.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Tea Spirit</span><span class="ingredient-amount">1 part (15ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">ROKU Gin</span><span class="ingredient-amount">3 parts (45ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Tea Plum Collins.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Tea Plum Collins</h3>
+                        <p class="cocktail-description">Complex, layered, gently tannic and refreshing.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Tea Spirit</span><span class="ingredient-amount">2 parts (40ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Plum Liqueur</span><span class="ingredient-amount">2 parts (40ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">1 part (20ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Coffee Rum Old Fashioned.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Coffee Rum Old Fashioned</h3>
+                        <p class="cocktail-description">Rich, warming, dark chocolate and molasses notes. Perfect for nightcaps.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Coffee Liqueur</span><span class="ingredient-amount">1 part (15ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Myer's Rum</span><span class="ingredient-amount">4 parts (60ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Coffee Cassis Dessert.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Coffee Cassis Dessert</h3>
+                        <p class="cocktail-description">Dark berry mocha richness. For dessert cocktail fans.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Coffee Liqueur</span><span class="ingredient-amount">2 parts (40ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Cassis</span><span class="ingredient-amount">1 part (20ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Milk (optional)</span><span class="ingredient-amount">To taste</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Tea Wine Negroni.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Tea Wine Negroni</h3>
+                        <p class="cocktail-description">Bold, tannic, complex and serious. For Negroni lovers and wine nerds.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Tea Spirit</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Red Wine</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">ROKU Gin</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Citrus Grove</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Yuzu Spritz.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Yuzu Spritz</h3>
+                        <p class="cocktail-description">Bright, playful, lightly sparkling citrus rice wine.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Yuzu Liqueur</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">White Wine</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Chilsung Cider</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Grapefruit Garden.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Grapefruit Garden</h3>
+                        <p class="cocktail-description">Crisp, dry grapefruit with botanical clarity.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">ROKU Gin</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Grapefruit Wine</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">1 part (30ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Chilsung Cider</span><span class="ingredient-amount">Top (30ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Orange Blossom.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Orange Blossom</h3>
+                        <p class="cocktail-description">Floral nose with crisp citrus backbone.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">Lavender Gin</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Orange Juice</span><span class="ingredient-amount">2.5 parts (75ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Yuzu Liqueur</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Grapefruit Wine</span><span class="ingredient-amount">0.5 parts (15ml)</span></div>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <div class="cocktail-image"><img src="Lemon Drop Paradise.png" alt="Lavender Breeze Cocktail" style="max-width: 50%; height: auto; display: block;"></div>
+                    <div class="cocktail-content">
+                        <h3 class="cocktail-name">Lemon Drop Paradise</h3>
+                        <p class="cocktail-description">Clean, sparkling, ultra-refreshing. For everyone.</p>
+                        <div class="recipe-title">Recipe</div>
+                        <div class="ingredient"><span class="ingredient-name">ROKU Gin</span><span class="ingredient-amount">1.5 parts (45ml)</span></div>
+                        <div class="ingredient"><span class="ingredient-name">Lemon Sour</span><span class="ingredient-amount">2 parts (60ml)</span></div>
+                        
